@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := Remove_Packages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := AmbientSensePrebuilt AppDirectedSMSService
+LOCAL_OVERRIDES_PACKAGES := AmbientSensePrebuilt AppDirectedSMSService Chrome Chrome-Stub
 LOCAL_OVERRIDES_PACKAGES += Camera2 CarrierSetup ConnMO DCMO
 LOCAL_OVERRIDES_PACKAGES += DMService DevicePolicyPrebuilt Drive PrebuiltGmail
 LOCAL_OVERRIDES_PACKAGES += DiagnosticsToolPrebuilt Maps Velvet
